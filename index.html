@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="score-container">
+            <div class="score-box">
+                <div class="score-label">SCORE</div>
+                <div id="score">0</div>
+            </div>
+            <div class="best-box">
+                <div class="best-label">BEST</div>
+                <div id="bestScore">0</div>
+            </div>
+            <button id="newGameButton">New Game</button>
+        </div>
+        <div class="game-container">
+            <div class="grid-container">
+                <div class="grid-row">
+                    <div class="grid-cell" data-row="0" data-col="0"></div>
+                    <div class="grid-cell" data-row="0" data-col="1"></div>
+                    <div class="grid-cell" data-row="0" data-col="2"></div>
+                    <div class="grid-cell" data-row="0" data-col="3"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell" data-row="1" data-col="0"></div>
+                    <div class="grid-cell" data-row="1" data-col="1"></div>
+                    <div class="grid-cell" data-row="1" data-col="2"></div>
+                    <div class="grid-cell" data-row="1" data-col="3"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell" data-row="2" data-col="0"></div>
+                    <div class="grid-cell" data-row="2" data-col="1"></div>
+                    <div class="grid-cell" data-row="2" data-col="2"></div>
+                    <div class="grid-cell" data-row="2" data-col="3"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell" data-row="3" data-col="0"></div>
+                    <div class="grid-cell" data-row="3" data-col="1"></div>
+                    <div class="grid-cell" data-row="3" data-col="2"></div>
+                    <div class="grid-cell" data-row="3" data-col="3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
